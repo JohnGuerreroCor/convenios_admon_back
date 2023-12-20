@@ -17,7 +17,7 @@ import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
 @Entity
-@Table(name = "dbo.usuario_graduado_admin_login")
+@Table(name = "carnetizacion.usuario_carnetizacion_admon_login")
 public class Usuario implements Serializable {
 
 	@Id
